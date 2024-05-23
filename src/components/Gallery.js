@@ -68,7 +68,7 @@ const Gallery = () => {
           </div>
           <div className="relative md:w-[650px] w[300px]">
           <button 
-              className="md:hidden absolute left-0 top-1/2 transform -translate-y-1/2 px-2 py-2 bg-gray-500 text-white rounded bg-opacity-70" 
+              className="absolute left-0 top-1/2 transform -translate-y-1/2 px-2 py-2 bg-gray-500 text-white rounded bg-opacity-70" 
               onClick={() => scrollGallery('left')}
             >
               &lt;
@@ -82,7 +82,7 @@ const Gallery = () => {
               ))}
             </div>
             <button 
-              className="md:hidden absolute right-0 top-1/2 transform -translate-y-1/2 px-2 py-2 bg-gray-500 text-white rounded bg-opacity-70" 
+              className="absolute right-0 top-1/2 transform -translate-y-1/2 px-2 py-2 bg-gray-500 text-white rounded bg-opacity-70" 
               onClick={() => scrollGallery('right')}
             >
               &gt;
