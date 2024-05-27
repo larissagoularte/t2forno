@@ -150,6 +150,8 @@ const Anuncio = () => {
               <br />
               Wifi de cortesia e limpeza quinzenal de manutenção
               </p>
+              <br />
+              <p className="text-sm font-semibold mt-1">*Visitas mediante marcação.</p>
           </div>
           
           <hr class="w-full h-[1px] mx-auto border-0 bg-gray-200 mb-1" />
@@ -196,7 +198,7 @@ const Anuncio = () => {
                     <FaPeopleRoof />
                     Lotação máxima
                   </div>
-                  <div className="font-bold text-sm text-gray-900">4 pessoas</div>
+                  <div className="font-bold text-sm text-gray-900">3 pessoas</div>
                 </div>
      
                 <div className="md:w-1/2 w-full flex items-center justify-between p-2 border-b">
@@ -225,7 +227,7 @@ const Anuncio = () => {
               </div>
                 <div className="flex gap-2 mt-2">
                 <div className="text-sm font-bold uppercase">Prazo:</div>
-                <div className="text-sm">Até 31 de agosto</div>
+                <div className="text-sm">Até 31 de agosto de 2025</div>
                 </div>
               </div>
 
