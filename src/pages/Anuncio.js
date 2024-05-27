@@ -154,63 +154,50 @@ const Anuncio = () => {
               <p className="text-sm font-semibold">*Visitas mediante marcação.</p>
           </div>
           
-          <hr class="w-full h-[1px] mx-auto border-0 bg-gray-200 mb-1" />
-          <div className="CARACTERISTICAS flex flex-col items-start mb-5">
-            <h3 class="text-gray-900 font-medium text-xl tracking-wide title-font"></h3>
-              
-            <div className="TABELA-CARACTERISTICAS flex flex-wrap min-w-96">
-                <div className="md:w-1/2 w-full flex items-center justify-between p-2 border-b">
-                  <div className="font-light text-sm text-gray-800 flex items-center gap-2">
+   
+          <div className="CARACTERISTICAS flex flex-col mb-5">              
+              <div className="grid grid-cols-2">
+                <div className="grid grid-cols-1 gap-1">
+                <div className="font-light text-sm text-gray-800 flex items-center gap-2 ">
                     <FaBed />
                     Tipologia 
                   </div>
-                  <div className="font-bold text-sm text-gray-900">T2</div>
-                </div>
-              
-                <div className="md:w-1/2 w-full flex items-center justify-between p-2 border-b">
-                  <div className="font-light text-sm text-gray-800 flex items-center gap-2">
+
+                  <div className="font-light text-sm text-gray-800 flex items-center gap-2 ">
                     <FaFaucet />
                     Despesas
                   </div>
-                  <div className="font-bold text-sm text-gray-900">Não incluidas</div>
-                </div>
 
-
-                <div className="md:w-1/2 w-full flex items-center justify-between p-2 border-b">
-                  <div className="font-light text-sm text-gray-800 flex items-center gap-2">
+                  <div className="font-light text-sm text-gray-800 flex items-center gap-2 ">
                     <FaCat />
                     Animais Domésticos 
                   </div>
-                  <div className="font-bold text-sm text-gray-900">Não Permitido</div>
-                </div>
 
-                <div className="md:w-1/2 w-full flex items-center justify-between p-2 border-b">
-                  <div className="font-light text-sm text-gray-800 flex items-center gap-2">
+                  <div className="font-light text-sm text-gray-800 flex items-center gap-2 ">
                     <PiHandDepositBold />
                     Caução 
                   </div>
-                  <div className="font-bold text-sm text-gray-900">1000€</div>
-                </div>
-              
 
-                <div className="md:w-1/2 w-full flex items-center justify-between p-2 border-b ">
-                  <div className="font-light text-sm text-gray-800 flex items-center gap-2">
+                  <div className="font-light text-sm text-gray-800 flex items-center gap-2 ">
                     <FaPeopleRoof />
                     Lotação máxima
                   </div>
-                  <div className="font-bold text-sm text-gray-900">4 pessoas</div>
-                </div>
-     
-                <div className="md:w-1/2 w-full flex items-center justify-between p-2 border-b">
-                  <div className="font-light text-sm text-gray-800 flex items-center gap-2">
+
+                  <div className="font-light text-sm text-gray-800 flex items-center gap-2 ">
                     <FaCalendarAlt />
                     Disponível a partir de
                   </div>
-                  <div className="font-bold text-sm text-gray-900">
-                    08/06/2024
-                  </div>
                 </div>
-            </div>
+                <div className="grid grid-cols-1 gap-1">
+                  <div className="font-bold text-sm text-gray-900 mb-1">T2</div>
+                  <div className="font-bold text-sm text-gray-900 mb-1">Não incluidas</div>
+                  <div className="font-bold text-sm text-gray-900 mb-1">Não Permitido</div>
+                  <div className="font-bold text-sm text-gray-900 mb-1">1000€</div>
+                  <div className="font-bold text-sm text-gray-900 mb-1">4 pessoas</div>
+                  <div className="font-bold text-sm text-gray-900 mb-1">08/06/2024</div>
+                </div>
+              </div>
+          
         </div>
 
           <div className="CONDICOES_CONTRATO flex flex-col items-start mt-1 ">
