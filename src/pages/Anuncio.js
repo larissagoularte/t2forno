@@ -154,62 +154,58 @@ const Anuncio = () => {
               <p className="text-sm font-semibold">*Visitas mediante marcação.</p>
           </div>
           
-   
-          <div className="CARACTERISTICAS flex flex-col mb-5">              
-              <div className="grid grid-cols-2">
+          <div className="CARACTERISTICAS w-full mb-5 border-t pt-2">
+                        
+              <div className="grid md:grid-cols-[3fr_1fr] grid-cols-2">
                 <div className="grid grid-cols-1 gap-1">
-                <div className="font-light text-sm text-gray-800 flex items-center gap-2 ">
+                  <div className="font-light text-gray-800 flex items-center gap-2">
                     <FaBed />
                     Tipologia 
                   </div>
 
-                  <div className="font-light text-sm text-gray-800 flex items-center gap-2 ">
+                  <div className="font-light text-gray-800 flex items-center gap-2 ">
                     <FaFaucet />
                     Despesas
                   </div>
 
-                  <div className="font-light text-sm text-gray-800 flex items-center gap-2 ">
+                  <div className="font-light text-gray-800 flex items-center gap-2 ">
                     <FaCat />
-                    Animais Domésticos 
+                    Animais
                   </div>
 
-                  <div className="font-light text-sm text-gray-800 flex items-center gap-2 ">
-                    <PiHandDepositBold />
-                    Caução 
-                  </div>
-
-                  <div className="font-light text-sm text-gray-800 flex items-center gap-2 ">
+                  <div className="font-light text-gray-800 flex items-center gap-2 ">
                     <FaPeopleRoof />
-                    Lotação máxima
+                    Lotação máx.
                   </div>
 
-                  <div className="font-light text-sm text-gray-800 flex items-center gap-2 ">
+                  <div className="font-light text-gray-800 flex items-center gap-2 ">
                     <FaCalendarAlt />
-                    Disponível a partir de
+                    Disponibilidade
                   </div>
                 </div>
-                <div className="grid grid-cols-1 gap-1">
-                  <div className="font-bold text-sm text-gray-900 mb-1">T2</div>
-                  <div className="font-bold text-sm text-gray-900 mb-1">Não incluidas</div>
-                  <div className="font-bold text-sm text-gray-900 mb-1">Não Permitido</div>
-                  <div className="font-bold text-sm text-gray-900 mb-1">1000€</div>
-                  <div className="font-bold text-sm text-gray-900 mb-1">4 pessoas</div>
-                  <div className="font-bold text-sm text-gray-900 mb-1">08/06/2024</div>
+                <div className="flex flex-col gap-1 items-end">
+                  <div className="font-bold text-gray-900 mb-1">T2</div>
+                  <div className="font-bold  text-gray-900 mb-1">Não incluidas</div>
+                  <div className="font-bold text-gray-900 mb-1">Não Permitido</div>
+                  <div className="font-bold text-gray-900 mb-1">4 pessoas</div>
+                  <div className="font-bold text-gray-900 mb-1">08/06/2024</div>
                 </div>
               </div>
+              
+          </div>
           
-        </div>
+
 
           <div className="CONDICOES_CONTRATO flex flex-col items-start mt-1 ">
             <h3 className="mb-2 text-gray-900 font-medium text-xl tracking-wide title-font">CONDIÇÕES CONTRATUAIS</h3>
 
               <div className="flex flex-col gap-1">
               <div className="flex gap-2">
-              <div className={`uppercase text-xs font-medium rounded-md px-2 py-1 bg-red-400 text-white`}>
+              <div className={`uppercase text-xs font-medium rounded-md px-2 py-1 bg-green-600 text-white`}>
                 Fiador
               </div>
               <div className={`uppercase text-xs font-medium rounded-md px-2 py-1 bg-red-400 text-white`}>
-                Caução
+                Caução: 1000€
               </div>
               </div>
                 <div className="flex gap-2 mt-2">
@@ -218,13 +214,13 @@ const Anuncio = () => {
                 </div>
               </div>
 
-              <div className="mt-2 flex flex-col">
-                <div className="uppercase tracking-wide font-light text-sm">Observações:</div>
-                <div>
-                  Contrato renovável por períodos de 12 meses.
-                  <p className="text-sm mt-2">*Não se efectuam reservas para data futura.</p>
-                  <p className="text-sm">**Apartamento só se considera reservado após pagamento da caução.</p>
-                </div>
+              <div className="mt-1 flex flex-col px-4">
+                <ul className="list-disc text-sm">
+                  <li>Contrato renovável por períodos de 12 meses.</li>
+                  <li>Caso não tenha fiador é possível prosseguir com o arrendamento no entanto necessitamos de mais garantias.</li>
+                  <li>Não se efectuam reservas para data futura.</li>
+                  <li>Apartamento só se considera reservado após pagamento da caução.</li>
+                </ul>                 
               </div>
           </div>        
       </div>
